@@ -1,0 +1,10 @@
+version: '3'
+services:
+  jenkins_test:
+    build: 
+      context: ./
+      dockerfile: Dockerfile
+    ports:
+      - "80:80"
+      - "443:443"
+
