@@ -6,7 +6,7 @@ node {
 
     stage ('up')
     {
-        sh 'users'
+        sh 'pwd'
         sh 'docker-compose up -d --build'
     }  
 
