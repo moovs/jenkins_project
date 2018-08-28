@@ -7,6 +7,5 @@ COPY ./default /etc/nginx/sites-available/default
 CMD ["nginx","-g","daemon off;"]
 EXPOSE 80 443
 
-#CMD service nginx start && service amplify-agent start && tail -f /var/log/amplify-agent/agent.log
 
 
