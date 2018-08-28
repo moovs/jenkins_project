@@ -73,7 +73,7 @@ html, body { padding: 0; margin: 0; }
 /* Style page content */
 .main {
     margin-left: 160px; /* Same as the width of the sidebar */
-    padding: 40px 200px;
+    padding: 40px 200px 0px 100px;
     font-size: 30px;
 }
 
@@ -97,7 +97,6 @@ html, body { padding: 0; margin: 0; }
   width: 400px;
   height: 300px;
   margin-top: 10px;
-  margin-bottom: 50px;
   display: flex;
   flex-direction: column;
   justify-content: center;
