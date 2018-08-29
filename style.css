@@ -111,6 +111,10 @@ html, body { padding: 0; margin: 0; }
   bottom: -4px;
 }
 
+.page-box:last-child {
+  margin-bottom: 50px; 
+}	
+
 .footer {
    position: fixed;
    left: 0;
