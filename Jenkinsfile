@@ -1,10 +1,10 @@
 node {
-    stage ('checkout')
+    stage ('git clone repo')
     {
         git url: 'https://github.com/moovs/jenkins_project.git'    
     }
 
-    stage ('up')
+    stage ('docker-compose up')
     {
         sh 'pwd'
         sh 'docker-compose up -d --build'
